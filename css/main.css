@@ -1,0 +1,59 @@
+/* main container css */
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Nixie One', cursive; */
+
+body {
+background-color: ghostwhite;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container {
+    margin: 3em 6em;
+}
+
+nav li {
+    display: inline-flex;
+    background-color: slategrey;
+    width: 100%;
+}
+
+.head-wrapper {
+    background-color: rgb(124, 175, 167);
+    width: 100%;
+    padding: 3em 6em;
+}
+
+h1 {
+    font-size: 5em;
+    color: white;
+}
+
+h3 {
+    color: rgb(124, 175, 167);
+}
+
+.workPlace {
+    padding-top: 1.5em;
+}
+
+p.introText {
+    font-size: 1.25em;
+}
+
+footer {
+    display: inline-flex;
+    background-color: slategrey;
+    width: 100%;
+    padding: 1em 6em;
+    color: white;
+}
+
+
+/* text styling */
+
+span.lightSlate {
+   font-weight: lighter;
+   color: slategrey; 
+}
