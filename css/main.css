@@ -1,53 +1,91 @@
 /* main container css */
 
-/* font-family: 'Lobster', cursive;
-font-family: 'Abril Fatface', cursive;
-font-family: 'Nixie One', cursive; */
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
 
 body {
-background-color: ghostwhite;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1em;
 }
 
-.container {
-    margin: 3em 6em;
+.main-container-wrapper {
+    margin: 6em 6em;
 }
 
-nav li {
-    display: inline-flex;
-    background-color: slategrey;
+/* Navigation bar style */
+.nav-wrapper {
+    background-color: white;
     width: 100%;
+    overflow: hidden;
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    position: fixed; 
+    top: 0;
+    margin-right: 7.35em;
+}
+ 
+  .nav-header-logo {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    color: rgb(190, 58, 18);
+    text-align: center;
+    letter-spacing: .05em;
+    font-size: 20px;
+    padding-bottom: 1em;
+    float: left;
+    padding-right: 3em;
+  }
+  
+.nav-header-item {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    /* float: right; */
+    color: slategrey;
+    font-size: .75em;
+    letter-spacing:.05em;
+    padding-right:.75em; 
 }
 
-.head-wrapper {
-    background-color: rgb(124, 175, 167);
-    width: 100%;
-    padding: 3em 6em;
+.nav-header a:hover {
+    color: black;
+  }
+
+/* Text styling */
+
+h1.serif-hed {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: slategrey;
+    letter-spacing:.02em;
+    padding-top: 1em;
 }
 
-h1 {
-    font-size: 5em;
-    color: white;
+.subhead {
+    font-family: 'Playfair Display', serif;
+    color: slategrey;
 }
 
-h3 {
-    color: rgb(124, 175, 167);
-}
-
-.workPlace {
-    padding-top: 1.5em;
-}
-
-p.introText {
-    font-size: 1.25em;
+.introText {
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2em;
 }
 
 footer {
     display: inline-flex;
+    font-family: 'Raleway', sans-serif;
     background-color: slategrey;
     width: 100%;
     padding: 1em 6em;
     color: white;
+    /* position: fixed; 
+    bottom: 0; */
+    width: 100%;
+    font-size: .75em;
 }
 
 
@@ -57,3 +95,8 @@ span.lightSlate {
    font-weight: lighter;
    color: slategrey; 
 }
+
+.workPlace {
+    padding-top: 1.5em;
+}
+
