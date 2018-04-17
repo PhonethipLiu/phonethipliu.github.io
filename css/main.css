@@ -4,14 +4,18 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Playfair Display', serif; */
 
-body {
+
+body, html {
+    height: 100%;
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    line-height: 1em;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: rgb(107, 107, 107);
 }
 
 .main-container-wrapper {
-    margin: 6em 6em;
+    margin: 6rem 6rem;
 }
 
 /* Navigation bar style */
@@ -20,12 +24,13 @@ body {
     width: 100%;
     overflow: hidden;
     align-items: center;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     position: fixed; 
+    margin-left: 6rem;
+    margin-right: 6rem;
     top: 0;
-    margin-right: 7.35em;
-    /* box-shadow: 0px 3px 15px  rgba(105, 138, 127, 0.797); */
+    box-shadow: 0px 3px 15px  rgba(105, 138, 127, 0.797);
 }
  
   .nav-header-logo {
@@ -34,20 +39,20 @@ body {
     display: inline;
     color: rgb(105, 138, 127);
     text-align: center;
-    letter-spacing: .05em;
+    letter-spacing: .05rem;
     font-size: 20px;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
     align-items: left;
-    padding-right: 3em;
+    padding-right: 3rem;
   }
   
 .nav-header-item {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     color: rgb(46, 45, 45);
-    font-size: .75em;
-    letter-spacing:.05em;
-    padding-right:.75em; 
+    font-size: .75rem;
+    letter-spacing:.05rem;
+    padding-right:.75rem; 
 }
 
 .nav-header a:hover {
@@ -56,12 +61,74 @@ body {
 
 /* Text styling */
 
-h1.serif-hed {
+/* Parallax styling */
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg-1 {
+background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
+min-height: 200px;
+}
+
+.bgimg-2 {
+background-image: url("../images/clouds.jpg");
+min-height: 800px;
+}
+
+.bgimg-3 {
+background-image: url("../images/pliu-az.jpg");
+min-height: 400px;
+}
+
+.caption {
+position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+text-align: center;
+color: #000;
+}
+
+.caption span.border {
+background-color: #111;
+color: #fff;
+padding: 1.5rem;
+font-size: 1rem;
+letter-spacing: 1rem;
+text-align: center;
+}
+
+
+h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 2em;
+    font-size: 1rem;
+    color: rgba(50, 50, 50, 0.543);
+    letter-spacing:.05rem;
+    padding-top: 1rem;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+    }
+
+span.sans-hed{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 2rem;
     color: rgb(50, 50, 50);
-    letter-spacing:.02em;
-    padding-top: 1em;
+    letter-spacing:.02rem;
+    padding-top: 1rem;
 }
 
 .subhead {
@@ -70,23 +137,23 @@ h1.serif-hed {
 }
 
 .introText {
-    font-size: 1em;
+    font-size: 1rem;
     font-family: 'Raleway', sans-serif;
-    line-height: 2em;
+    line-height: 2rem;
+    padding: 1rem 10rem;
+    text-align: left;
 }
 
-footer {
+/* footer {
     display: inline-flex;
     font-family: 'Raleway', sans-serif;
     background-color: slategrey;
     width: 100%;
-    padding: 1em 6em;
+    padding: 1rem 6rem;
     color: white;
-    /* position: fixed; 
-    bottom: 0; */
     width: 100%;
-    font-size: .75em;
-}
+    font-size: .75rem;
+} */
 
 
 /* text styling */
@@ -97,6 +164,15 @@ span.lightSlate {
 }
 
 .workPlace {
-    padding-top: 1.5em;
+    padding-top: 1.5rem;
 }
 
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
