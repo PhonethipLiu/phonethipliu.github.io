@@ -4,7 +4,6 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Playfair Display', serif; */
 
-
 body, html {
     height: 100%;
     margin: 0;
@@ -15,51 +14,103 @@ body, html {
 }
 
 .main-container-wrapper {
-    margin: 6rem 6rem;
+    padding-top: 6rem;
 }
 
 /* Navigation bar style */
 .nav-wrapper {
-    background-color: rgba(255, 255, 255, 1.0);
+    background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
+    /* background-color: rgba(255, 255, 255, 1.0); */
+    min-height: 250px;
     width: 100%;
+    height: 100px;
     overflow: hidden;
-    align-items: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    /* align-items: left; */
+    padding-top: 3.6rem;
+    padding-bottom: 2rem;
     position: fixed; 
-    margin-left: 6rem;
-    margin-right: 6rem;
+    z-index: 100;
+    /* margin-left: 6rem;
+    margin-right: 6rem; */
     top: 0;
-    box-shadow: 0px 3px 15px  rgba(105, 138, 127, 0.797);
+    box-shadow: 0px 0px 50px  rgba(53, 71, 65, 0.797);
+    background-size: cover;
 }
  
-  .nav-header-logo {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    display: inline;
+.nav-header {
     color: rgb(105, 138, 127);
-    text-align: center;
+    text-align: left;
     letter-spacing: .05rem;
-    font-size: 20px;
-    padding-bottom: 1rem;
-    align-items: left;
-    padding-right: 3rem;
-  }
+    font-size: .8rem;
+    padding: 0rem 4rem;
+}
   
 .nav-header-item {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    color: rgb(46, 45, 45);
-    font-size: .75rem;
-    letter-spacing:.05rem;
-    padding-right:.75rem; 
+    color: white;
+    font-size: .6rem;
+    letter-spacing:.07rem;
+    padding-right:.5rem; 
+    font-weight: 600;
 }
 
 .nav-header a:hover {
-    color: black;
-  }
+    color: rgb(180, 6, 87);
+    text-decoration: none;
+}
 
 /* Text styling */
+h1.nav-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: .6rem;
+    line-height: 1rem;
+    color: rgb(184, 255, 246);
+    letter-spacing:.05rem;
+    text-shadow: 0px 0px 10px  rgba(46, 63, 58, 0.9);
+    margin-bottom: 1.2rem;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    letter-spacing:.02rem;
+    padding-top: 1rem;
+    line-height: 2rem;
+}
+
+h3 {
+    /* font-family: 'Raleway', sans-serif; */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+.subhead {
+    font-family: 'Playfair Display', serif;
+    color: slategrey;
+}
+
+.introText {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2rem;
+    padding: 2rem 10rem;
+    text-align: left;
+    color: #000000;
+}
+
+.mainText {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2rem;
+    padding: 2rem 4rem;
+    text-align: left;
+    color: #fcfcfc;
+}
 
 /* Parallax styling */
 
@@ -71,19 +122,21 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .bgimg-1 {
 background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
-min-height: 200px;
+min-height: 400px;
+background-size: cover;
 }
 
 .bgimg-2 {
 background-image: url("../images/clouds.jpg");
-min-height: 800px;
+min-height: 600px;
 }
 
 .bgimg-3 {
-background-image: url("../images/pliu-az.jpg");
-min-height: 400px;
+background-image: url("../images/clouds.jpg");
+min-height: 800px;
 }
 
 .caption {
@@ -96,79 +149,25 @@ color: #000;
 }
 
 .caption span.border {
-background-color: #111;
-color: #fff;
-padding: 1.5rem;
-font-size: 1rem;
-letter-spacing: 1rem;
-text-align: center;
-}
-
-
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-    color: rgba(50, 50, 50, 0.543);
-    letter-spacing:.05rem;
-    padding-top: 1rem;
-}
-
-h3 {
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
-    }
-
-span.sans-hed{
-    font-family: 'Raleway', sans-serif;
-    font-weight: lighter;
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: rgb(50, 50, 50);
-    letter-spacing:.02rem;
-    padding-top: 1rem;
+    padding: 1rem 2rem;;
+    font-size: .6rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
-
-.subhead {
-    font-family: 'Playfair Display', serif;
-    color: slategrey;
-}
-
-.introText {
-    font-size: 1rem;
-    font-family: 'Raleway', sans-serif;
-    line-height: 2rem;
-    padding: 1rem 10rem;
-    text-align: left;
-}
-
-/* footer {
-    display: inline-flex;
-    font-family: 'Raleway', sans-serif;
-    background-color: slategrey;
-    width: 100%;
-    padding: 1rem 6rem;
-    color: white;
-    width: 100%;
-    font-size: .75rem;
-} */
-
 
 /* text styling */
 
-span.lightSlate {
+span.bordr {
    font-weight: lighter;
-   color: slategrey; 
+   color: #ffffff; 
+   padding: 1rem;
 }
 
 .workPlace {
     padding-top: 1.5rem;
 }
-
-
-
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
