@@ -57,6 +57,13 @@ body, html {
     color: #f90081;
     text-decoration: none;
 }
+.nav-header a:checked {
+    color: #960c53;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing:.07rem; 
+    font-weight: 500;
+}
 
 a span#nav-header-logo {
     font-family: 'Raleway', sans-serif;
@@ -79,6 +86,7 @@ span#nav-header-logo a {
 span#nav-header-logo a:hover {
     color: white;
 }
+
 
 /* Text styling */
 h1.nav-description {
@@ -264,6 +272,12 @@ main.blog{
     margin-top: 6rem;
     margin-bottom: 6rem;
     padding: 0rem 10rem;
+}
+
+/* PORTFOLIO AREA  */
+a.project-link {
+    color: #f90081;
+
 }
 
 /* Turn off parallax scrolling for tablets and phones */
