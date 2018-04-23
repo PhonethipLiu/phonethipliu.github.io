@@ -19,7 +19,7 @@ body, html {
 .nav-wrapper {
     background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
     /* background-color: rgba(255, 255, 255, 1.0); */
-    min-height: 200px;
+    min-height: 100px;
     width: 100%;
     height: 100px;
     overflow: hidden;
@@ -47,49 +47,78 @@ body, html {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     color: white;
-    font-size: .8rem;
+    font-size: 1rem;
     letter-spacing:.07rem;
-    padding-right:.5rem; 
+    padding-right:1rem; 
     font-weight: 500;
 }
 
 .nav-header a:hover {
-    color: rgb(180, 6, 87);
+    color: #f90081;
     text-decoration: none;
+}
+
+a span#nav-header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    padding: .5rem .5rem .5rem 1rem;
+    font-size: 1rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-top: 25px solid white;
+    margin-right: 1rem;
+    
+}
+
+span#nav-header-logo a {
+    color: #f90081;
+}
+span#nav-header-logo a:hover {
+    color: white;
 }
 
 /* Text styling */
 h1.nav-description {
     font-family: 'Raleway', sans-serif;
     font-size: .7rem;
-    line-height: 1rem;
-    color: rgb(184, 255, 246);
-    letter-spacing:.05rem;
-    text-shadow: 0px 0px 10px  rgba(46, 63, 58, 0.9);
-    margin-bottom: .5rem;
+    line-height: 8.rem;
+    color: rgb(23, 61, 61);
+    letter-spacing:.1rem;
+    /* text-shadow: 0px 0px 10px  rgba(46, 63, 58, 0.9); */
+    text-transform: uppercase;
+    font-weight: 600;
+    
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
-    color: white;
-    letter-spacing:.02rem;
-    padding-top: 1rem;
+    color: #f90081;
+    letter-spacing:.05rem;
+    padding-top: 3rem;
     line-height: 2rem;
+    margin-bottom: .5rem;
+
 }
 
-h3 {
+h4 {
     /* font-family: 'Raleway', sans-serif; */
     letter-spacing: 5px;
     text-transform: uppercase;
     font: 20px "Lato", sans-serif;
-    color: #111;
+    color: #f90081;
+    text-align: left;
+    font-size: .9rem;
 }
 
 .subhead {
-    font-family: 'Playfair Display', serif;
-    color: slategrey;
+    font-weight: 400;
+    color: rgb(120, 120, 121);
+    letter-spacing: .03rem;
 }
 
 .introText {
@@ -106,8 +135,8 @@ h3 {
     font-family: 'Raleway', sans-serif;
     line-height: 2rem;
     padding: 2rem 4rem;
-    text-align: left;
-    color: #fcfcfc;
+    text-align: center;
+    color: white;
 }
 
 /* Parallax styling */
@@ -123,6 +152,7 @@ h3 {
 
 .bgimg-1 {
 background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
+width: 100%;
 min-height: 200px;
 background-size: cover;
 }
@@ -130,72 +160,101 @@ background-size: cover;
 .bgimg-2 {
 background-image: url("../images/clouds.jpg");
 min-height: 600px;
+width: 100%;
 }
 
 .bgimg-3 {
 background-image: url("../images/clouds.jpg");
-min-height: 200px;
+min-height: 600px;
+width: 100%;
 }
 
 .caption {
 position: absolute;
 left: 0;
-top: 50%;
+top: 20%;
 width: 100%;
 text-align: center;
 color: #000;
 }
 
-.caption span.border {
+span.border {
     font-family: 'Raleway', sans-serif;
-    padding: 1rem 2rem;;
+    padding: 1rem 2rem;
+    color: #ffffff;
     font-size: .6rem;
     letter-spacing: .5rem;
     text-align: center;
     margin-bottom: 1rem;
 }
 
-/* text styling */
-
-span.bordr {
-   font-weight: lighter;
-   color: #ffffff; 
-   padding: 1rem;
+span.border#resume {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
-.workPlace {
-    padding-top: 1.5rem;
+/* experience div styling */
+
+article.workPlace  {
+    padding: 0rem 10rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+div.work-experience{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+p.experience{
+    font-size: .8rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6rem;
+    letter-spacing: .05rem;
+    text-align: left;
+    color: #ffffff;
 }
 
 /* Triangle shape */
 .triangle-1 {
-	/* width: 50;
-	height: 50; */
+	width: 100%;
+	/* height: 50; */
 	border-left: 0px solid transparent;
-	border-right: 1000px solid transparent;
-    border-top: 500px solid rgb(42, 118, 119);
-    background-color: rgb(168, 235, 222);
+	border-right: 1200px solid transparent;
+    border-top: 600px solid rgb(42, 118, 119);
+    background-color: white;
 }
 
 .triangle-2 {
-	/* width: 100;
-	height: 50; */
+	width: 100%;
+	/* height: 50; */ 
 	border-left: 0px solid transparent;
-	border-right: 1000px solid transparent;
-    border-bottom: 500px solid rgb(248, 190, 190);
-    background-color: rgb(168, 235, 222);
+	border-right: 1200px solid transparent;
+    border-bottom: 600px solid rgb(248, 190, 190);
+    background-color: white;
 }
 
-/* .triangle-up {
-	width: 100;
-	height: 100;
-	border-left: 140px solid transparent;
-	border-right: 140px solid transparent;
-    border-bottom: 200px solid rgb(248, 190, 190);
-} */
+/* Contact area styling */
 
+p.contact {   
+    margin-top: 2rem;
+}
 
+p.contact a{   
+    color: #f90081;
+}
 
+/* Footer area */
+.footer-wrapper{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.footer-col-1{
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    text-align: center; 
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
