@@ -21,13 +21,13 @@ body, html {
 .nav-wrapper {
     background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
     /* background-color: rgba(255, 255, 255, 1.0); */
-    min-height: 250px;
+    min-height: 200px;
     width: 100%;
     height: 100px;
     overflow: hidden;
     /* align-items: left; */
-    padding-top: 3.6rem;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1.6rem;
     position: fixed; 
     z-index: 100;
     /* margin-left: 6rem;
@@ -42,17 +42,17 @@ body, html {
     text-align: left;
     letter-spacing: .05rem;
     font-size: .8rem;
-    padding: 0rem 4rem;
+    padding: 0rem 3rem;
 }
   
 .nav-header-item {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     color: white;
-    font-size: .6rem;
+    font-size: .8rem;
     letter-spacing:.07rem;
     padding-right:.5rem; 
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .nav-header a:hover {
@@ -63,12 +63,12 @@ body, html {
 /* Text styling */
 h1.nav-description {
     font-family: 'Raleway', sans-serif;
-    font-size: .6rem;
+    font-size: .7rem;
     line-height: 1rem;
     color: rgb(184, 255, 246);
     letter-spacing:.05rem;
     text-shadow: 0px 0px 10px  rgba(46, 63, 58, 0.9);
-    margin-bottom: 1.2rem;
+    margin-bottom: .5rem;
 }
 
 h2 {
@@ -125,7 +125,7 @@ h3 {
 
 .bgimg-1 {
 background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
-min-height: 400px;
+min-height: 200px;
 background-size: cover;
 }
 
@@ -136,7 +136,7 @@ min-height: 600px;
 
 .bgimg-3 {
 background-image: url("../images/clouds.jpg");
-min-height: 800px;
+min-height: 200px;
 }
 
 .caption {
