@@ -1,1 +1,5 @@
-let blog = (title, date, content)[];
+let blog = [
+    { title: "",
+    date:"",
+    content: ""},
+];
