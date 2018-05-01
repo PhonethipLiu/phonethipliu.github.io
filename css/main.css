@@ -173,7 +173,7 @@ width: 100%;
 
 .bgimg-3 {
 background-image: url("../images/clouds.jpg");
-min-height: 600px;
+min-height: 800px;
 width: 100%;
 }
 
@@ -246,6 +246,32 @@ p.experience{
     background-color: white;
     z-index: -1;
 }
+
+/* Projects grid area */
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+
+}
+
+.project {
+    display:flex;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.row {
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
+
 
 /* Contact area styling */
 
