@@ -77,7 +77,6 @@ a span#nav-header-logo {
 	border-right: 25px solid transparent;
     border-top: 25px solid white;
     margin-right: 1rem;
-    
 }
 
 span#nav-header-logo a {
@@ -133,7 +132,7 @@ h4 {
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
     line-height: 2rem;
-    padding: 2rem 10rem;
+    padding: 1rem 2rem;
     text-align: left;
     color: #000000;
 }
@@ -151,11 +150,12 @@ h4 {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.65;
+    opacity: 0.5;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 2;
 }
 
 .bgimg-1 {
@@ -228,23 +228,23 @@ p.experience{
 
 
 .triangle-1 {
-	width: 100%;
-	/* height: 50; */
+	width: 0;
+	height: 0;
 	border-left: 0px solid transparent;
-	border-right: 100px solid transparent;
-    border-top: 600px solid rgb(42, 118, 119);
-    background-color: white;
-    z-index: -1;
+	border-right: 300px solid transparent;
+    border-top: 150px solid rgba(42, 118, 119, 0.25);
+    background-color: transparent;
+    z-index: 1;
 }
 
 .triangle-2 {
-	width: 100%;
+	/* width: 100%; */
 	/* height: 50; */ 
 	border-left: 0px solid transparent;
-	border-right: 100px solid transparent;
-    border-bottom: 600px solid rgb(248, 190, 190);
-    background-color: white;
-    z-index: -1;
+	border-right: 1020px solid transparent;
+    border-bottom: 800px solid rgba(248, 190, 190, 0.25);
+    background-color: transparent;
+    z-index: 1;
 }
 
 /* Projects grid area */
