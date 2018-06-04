@@ -235,6 +235,8 @@ p.experience{
     border-top: 150px solid rgba(42, 118, 119, 0.25);
     background-color: transparent;
     z-index: 1;
+    -webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+    clip-path: polygon(100% 0, 0 0, 0 100%);
 }
 
 .triangle-2 {
