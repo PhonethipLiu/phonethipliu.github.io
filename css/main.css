@@ -16,7 +16,11 @@ body, html {
 }
 
 section {
-    padding: 2rem 0rem;
+    padding: 2rem 6rem;
+}
+
+article.projects-case-study {
+    padding: 3rem 0rem;
 }
 
 /* Navigation bar style */
