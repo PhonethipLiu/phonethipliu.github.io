@@ -15,6 +15,10 @@ body, html {
     padding-top: 6rem;
 }
 
+section {
+    padding: 2rem 0rem;
+}
+
 /* Navigation bar style */
 .nav-wrapper {
     background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
@@ -57,6 +61,7 @@ body, html {
     color: #f90081;
     text-decoration: none;
 }
+
 .nav-header a:checked {
     color: #960c53;
     text-decoration: none;
@@ -77,7 +82,6 @@ a span#nav-header-logo {
 	border-right: 25px solid transparent;
     border-top: 25px solid white;
     margin-right: 1rem;
-    
 }
 
 span#nav-header-logo a {
@@ -98,7 +102,6 @@ h1.nav-description {
     /* text-shadow: 0px 0px 10px  rgba(46, 63, 58, 0.9); */
     text-transform: uppercase;
     font-weight: 600;
-    
 }
 
 h2 {
@@ -110,7 +113,6 @@ h2 {
     padding-top: 3rem;
     line-height: 2rem;
     margin-bottom: .5rem;
-
 }
 
 h4 {
@@ -133,7 +135,8 @@ h4 {
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
     line-height: 2rem;
-    padding: 2rem 10rem;
+    padding: 2rem 2rem;
+    margin: 0rem 8rem;
     text-align: left;
     color: #000000;
 }
@@ -173,7 +176,7 @@ width: 100%;
 
 .bgimg-3 {
 background-image: url("../images/clouds.jpg");
-min-height: 600px;
+min-height: 800px;
 width: 100%;
 }
 
@@ -186,6 +189,16 @@ text-align: center;
 color: #000;
 }
 
+.caption.work {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+
 span.border {
     font-family: 'Raleway', sans-serif;
     padding: 1rem 2rem;
@@ -193,12 +206,13 @@ span.border {
     font-size: .6rem;
     letter-spacing: .5rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     margin-top: 1rem;
 }
 
 span.border#resume {
     align-items: center;
+    margin-top: 1rem;
 }
 
 /* experience div styling */
@@ -216,12 +230,12 @@ div.work-experience{
 }
 
 p.experience{
-    font-size: .8rem;
+    font-size: .9rem;
     font-family: 'Raleway', sans-serif;
-    line-height: 1.8rem;
+    line-height: 2rem;
     letter-spacing: .05rem;
     text-align: left;
-    color: #ffffff;
+    color: #e4e4e4;
 }
 
 /* Triangle shape */
@@ -255,7 +269,7 @@ p.contact a{
 
 /* Footer area */
 .footer-wrapper{
-    margin-top: 2rem;
+    margin-top: 0rem;
     margin-bottom: 2rem;
 }
 .footer-col-1{
@@ -263,6 +277,8 @@ p.contact a{
     text-transform: uppercase;
     letter-spacing: .05rem;
     text-align: center; 
+    margin-top: 3rem;
+    color: #000;
 }
 
 
@@ -275,9 +291,14 @@ main.blog{
 }
 
 /* PORTFOLIO AREA  */
+
+
 a.project-link {
     color: #f90081;
+}
 
+.work-project-Quizit {
+    margin: 1rem 0rem;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
