@@ -321,12 +321,13 @@ a.project-link {
     }
 }
 
+/* Fixing margins and padding tablets and phones */
 @media screen and (min-device-width: 480px) {
    main {
         padding: 1rem;
     }
 
     section{
-        padding: 1rem;
+        padding: 1rem;g
     }
 }
