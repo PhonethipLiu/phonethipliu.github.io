@@ -17,7 +17,7 @@ main {
 }
 
 section {
-    padding: 2rem 2rem;
+    margin: 3rem 6rem;
 }
 
 /* Quizit project case study */
@@ -247,10 +247,10 @@ div.work-experience{
 p.experience{
     font-size: .8rem;
     font-family: 'Raleway', sans-serif;
-    line-height: 2rem;
+    line-height: 1.6rem;
     letter-spacing: .05rem;
     text-align: left;
-    color: #e4e4e4;
+    color: rgb(43, 44, 45);
 }
 
 /* Triangle shape */
@@ -280,16 +280,19 @@ p.contact a{
     color: #f90081;
 }
 
+.main-section {
+    margin-top: 10rem;
+}
+
 /* Footer area */
 .footer-wrapper{
-    margin-top: 0rem;
-    margin-bottom: 2rem;
+    margin: 3rem 0rem;
 }
 .footer-col-1{
     font-size: .7rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: .05rem;
-    text-align: center; 
+    /* text-align: center;  */
     margin-top: 3rem;
     color: #000;
 }
@@ -297,11 +300,11 @@ p.contact a{
 
 /* BLOG area */
 
-main.blog{
+/* main {
     margin-top: 6rem;
     margin-bottom: 6rem;
-    padding: 0rem 10rem;
-}
+    padding: 0rem 2rem;
+} */
 
 /* PORTFOLIO AREA  */
 
@@ -318,9 +321,12 @@ a.project-link {
     }
 }
 
-@media screen and (min-width: 300px) {
-    section {
-        background-color: rgb(25, 71, 67);
-        padding: 3rem;
+@media screen and (min-device-width: 480px) {
+   main {
+        padding: 1rem;
+    }
+
+    section{
+        padding: 1rem;
     }
 }
