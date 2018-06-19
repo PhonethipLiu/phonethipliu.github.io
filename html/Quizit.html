@@ -16,27 +16,46 @@
 <body>
 
     <header class="nav-wrapper">
-        <nav class="nav-header align-left">
-        <a href="#home"> <span class="border" id="nav-header-logo" style="background-color:transparent; color: #f90081;"> PHONETHIP</span></a>
+        <nav class="nav-header navbar-expand-MD">
+            
+            <div class="nav-image"> 
+                <a href="#" class="border navbar-brand navbar-toggler" id="nav-header-logo" style="background-color:transparent; color: #f90081;" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> PHONETHIP</a>
+            </div>   
+              
+            
+            <div class="collapse navbar-collapse nav-header d-sm-none" id="navbarNavDropdown">
+            
+                <div class="navbar-nav">
+                   
+                    <a href="./aboutMe.html" class="nav-link nav-header-item d-sm-none" >ABOUT ME</a>
+                    <a href="#" class="nav-link nav-header-item active d-sm-none">RESUME</a> 
 
-        <a href="./html/aboutMe.html" class="nav-header-item float-sm-right" >ABOUT ME</a>
-        <a href="#resume" class="nav-header-item float-sm-right" >EXPERIENCE</a> 
-        <a href="#work" class="nav-header-item float-sm-right" >WORK</a> 
-        <!-- <a href="./html/blog.html" class="nav-header-item"> BLOG </a>  -->
-        <!-- <a href="#contact" class="nav-header-item">CONTACT ME</a>  -->
-
+                    <div class="dropdown nav-header-item d-sm-none">
+                        <a href="#" class="nav-link  dropdown-toggle" id="navbarDropdownMenuLink" 
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> WORK</a> 
+                            
+                            <div class="dropdown-menu d-sm-none" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./Quizit.html">Quiz-it</a>
+                            <!-- <a class="dropdown-item" href="#">Crime Checker</a>
+                            <a class="dropdown-item" href="#">Hustle</a> -->
+                            </div>
+                    </div>
+        
+                </div>
+        
+            </div>
         </nav>
     </header> 
         
-    <div > <!-- main section --> 
+     <!-- main section --> 
         <main class="main-container-wrapper"> 
 
             <section id="Quizits">
                 
                 <article class="projects-case-study">
-                    <div class="d-flex">
-                        <h1 class="m-t-5">Quiz-its</h1>
-                        <img src="../images/Quizit-devices.png" style="width: 60%; height: 60%; object-fit: contain;" id="Quizit" class ="case-study">
+                    <div class="d-md-flex m-t-5">
+                        <h1 class="row mr-3">Quiz-its</h1>
+                        <img src="../images/Quizit-devices.png" style="width: 70%; height: 70%; object-fit: contain;" id="Quizit" class ="case-study-quizit">
                     </div>
                     <div> Front-end Developer/ UX & UI Designer : An NSS apprentice enrolled in an immersive six-month full-ti me software development bootcamp focused on front-end development and UI & UX design fundamentals. Development experience involves daily hands on application of development fundamentals and principles through group and individual projects reflecting real world business problems using source code version control with Git/GitHub as well as utilizing Github Projects & Issue Tracking for project management. UX and UI design involves creating user stories based on assessment of user experience and workflow to produce visual & interactive design with strategic use of typography, layout, color, motion, and behavior. Convey interactive story ideas and complex interactions with wireframes or prototypes.
 
@@ -77,17 +96,19 @@
             </section>
                                  
         </main> 
-</div> <!-- close main section -->
+<!-- close main section -->
 
-    <!-- <footer>
-        <div class="container footer-wrapper">
-            <div class="row footer-row">
-            <div class="col footer-col-1">
-            Designed and Developed by Phonethip Hobson &copy;Copyright 2018
-            </div>
-            </div>
+        <div class="bgimg-1">
+            <footer>
+                <div class="container footer-wrapper">
+                    <div class="row footer-row">
+                    <div class="col footer-col-1">
+                    Web design and content &copy; 2018 Phonethip Liu Hobson.
+                    </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-    </footer> -->
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    
