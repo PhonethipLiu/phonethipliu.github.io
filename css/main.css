@@ -44,15 +44,15 @@ article.projects-case-study ul {
     background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
     /* background-color: rgba(255, 255, 255, 1.0); */
     background-size: cover;
-    min-height: 30%; 
+    min-height: 60%; 
     width: 100%;
     overflow: hidden;
     position: fixed; 
     top: 0;
     left: 0;
     box-shadow: 0px 0px 50px  rgba(53, 71, 65, 0.797);
-    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
-    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 44%, 0 21%);
+    clip-path: polygon(0 0, 100% 0, 100% 44%, 0 21%);
 }
  
 .nav-header {
@@ -348,15 +348,15 @@ a.project-link {
         background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
         /* background-color: rgba(255, 255, 255, 1.0); */
         background-size: cover;
-        min-height: 40%; 
+        min-height: 30%; 
         /* width: 100%; */
         overflow: hidden;
         position: fixed; 
         top: 0;
         left: 0;
         box-shadow: 0px 0px 50px  rgba(53, 71, 65, 0.797);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 37%, 0 76%);
-        clip-path: polygon(0 0, 100% 0, 100% 37%, 0 76%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 44%, 0 21%);
+        clip-path: polygon(0 0, 100% 0, 100% 44%, 0 21%);
     }
 
     .nav-link {
