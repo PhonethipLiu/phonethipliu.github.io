@@ -20,6 +20,10 @@ section {
     margin: 3rem 6rem;
 }
 
+ul {
+    margin: 1rem;
+    padding: 0;
+}
 /* Quizit project case study */
 article.projects-case-study {
     padding: 0rem 0rem 2rem 0rem;
@@ -56,8 +60,9 @@ article.projects-case-study ul {
 }
  
 .nav-header {
-    display: flex;
-    text-align: left;
+    display: inline-flex;
+    align-items: flex-end;
+    text-align: right;
     letter-spacing: .05rem;
     font-size: .8rem;
     padding: 1.6rem .9rem;
@@ -120,8 +125,6 @@ h1 {
     font-size: 3rem;
     line-height: 4rem;
     color: rgb(23, 61, 61);
-    /* letter-spacing: 0rem; */
-    /* text-transform: uppercase; */
     font-weight: 600;
 }
 
@@ -149,9 +152,21 @@ h2 {
 
 h4 {
     /* font-family: 'Raleway', sans-serif; */
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font: 20px 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #f90081;
+    text-align: left;
+    font-size: .9rem;
+}
+
+h4.subhead {
+    padding-top:1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font: 20px 'Raleway', sans-serif;
+    font-weight: 600;
     color: #f90081;
     text-align: left;
     font-size: .9rem;
@@ -183,7 +198,6 @@ p.introText {
 }
 
 /* Parallax styling */
-
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
     opacity: 0.55;
@@ -193,23 +207,26 @@ p.introText {
     background-size: cover;
 }
 
+/* Image 1 */
 .bgimg-1 {
     background-image: url("../images/TRIANGLE_BACKGROUND.jpg");
     width: 100%;
-    min-height: 200%;
-    background-size: cover;
+    min-height: 100%;
+    /* background-size: cover; */
 }
 
+/* Image 2 */
 .bgimg-2 {
     background-image: url("../images/clouds.jpg");
-    min-height: 600%;
-    width: 100%;
+    min-height: 600px;
+    /* width: 100%; */
 }
 
+/* Image 3 */
 .bgimg-3 {
     background-image: url("../images/clouds.jpg");
-    min-height: 800;
-    width: 100%;
+    min-height: 800px;
+    /* width: 100%; */
 }
 
 .caption {
@@ -240,11 +257,19 @@ p.introText {
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 1rem;
+    border-style: solid 2px;
+    border-radius: 0px;
 }
 
 .border#resume {
     align-items: center;
     margin-top: 1rem;
+}
+
+/* Quiz-its styling */
+
+.case-study-quizit{
+    margin: 1rem 0rem;
 }
 
 /* experience div styling */
@@ -360,7 +385,7 @@ a.project-link {
     }
 
     .nav-link {
-        display: block;
+        display: inline-flex;
         text-decoration: none;
         font-family: 'Raleway', sans-serif;
         color: white;
@@ -369,9 +394,7 @@ a.project-link {
         font-weight: 500;
         z-index: 101;
         padding: 0;
-        margin:
     }
     
- 
    
 }
