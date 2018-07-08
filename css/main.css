@@ -33,7 +33,6 @@ article.projects-case-study ul {
     text-transform: none;
 }
 
-
 /* Navigation bar style */
 .nav-wrapper {
     display: inline;
@@ -61,11 +60,11 @@ article.projects-case-study ul {
  
 .nav-header {
     display: inline-flex;
-    align-items: flex-end;
+    align-self: flex-end;
     text-align: right;
     letter-spacing: .05rem;
     font-size: .8rem;
-    padding: 1.6rem .9rem;
+    padding: 1rem 2rem;
     z-index: 102;
 }
   
@@ -74,7 +73,7 @@ article.projects-case-study ul {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     color: white;
-    font-size: 1rem;
+    font-size: .7rem;
     letter-spacing:.07rem;
     padding-right:1rem; 
     font-weight: 500;
@@ -115,6 +114,9 @@ article.projects-case-study ul {
     color: white;
 }
 
+.nav-link{
+    color: white;
+}
 .dropdown {
     z-index: 105;
 }
@@ -148,6 +150,15 @@ h2 {
     padding-top: 3rem;
     line-height: 3rem;
     margin-bottom: .5rem;
+}
+
+h2.header {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #f90081;
+    letter-spacing:.05rem;
+    line-height: 3rem;
 }
 
 h4 {
@@ -342,11 +353,7 @@ p.contact a{
 
 /* BLOG area */
 
-/* main {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    padding: 0rem 2rem;
-} */
+
 
 /* PORTFOLIO AREA  */
 

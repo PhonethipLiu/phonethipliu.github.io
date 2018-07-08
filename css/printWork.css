@@ -1,0 +1,51 @@
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: .7rem;
+    letter-spacing: 1px;  
+}
+
+.navbar-img {
+    /* background-image: url("../images/TRIANGLE_BACKGROUND.jpg"); */
+    /* background-size: cover;  */
+    min-height: 40%; 
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 40%, 0 25%);
+    clip-path: polygon(0 0, 100% 0, 100% 40%, 0 25%);
+}
+
+.navbar-nav  li a:hover {
+    color: #f90081 !important;
+}
+
+.navbar-nav  li a {
+    color: white !important;
+    justify-content: flex-end;
+    text-shadow:  0px 0px 8px  rgba(4, 4, 4, 0.7);
+}
+
+.print-item {
+    width: 100px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.navbar-brand {
+    color: rgb(249, 0, 129) !important;
+    /* text-shadow:  0px 0px 8px  rgba(4, 4, 4, 0.4); */
+    letter-spacing: 2px;
+}
+
+.navbar-header a:hover{
+    color: rgb(249, 190, 220) !important;
+}
+
+.navbar-toggler {
+    align-items: flex-end;
+}
