@@ -15,7 +15,7 @@
 
 <body>
 
-    <header class="nav-wrapper">
+    <!-- <header class="nav-wrapper">
         <nav class="nav-header navbar-expand-MD">
             
             <div class="nav-image"> 
@@ -37,7 +37,6 @@
                             <div class="dropdown-menu d-sm-none" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="./Quizit.html">Quiz-it</a>
                             <a class="dropdown-item" href="./Delish.html">Delish</a>
-                            <!-- <a class="dropdown-item" href="#">Hustle</a> -->
                             </div>
                     </div>
         
@@ -45,8 +44,45 @@
         
             </div>
         </nav>
-    </header> 
+    </header> -->
         
+    <header>
+            <div>
+            <img src="../images/TRIANGLE_BACKGROUND.jpg" class ="navbar-img fixed-top" style="object-fit: cover; height: 50%;">
+            <nav class="navbar navbar-expand-md fixed-top navbar-light">
+                
+                <div class="container">
+                    <div class="navbar-header justify-content-end">
+                        <a class="navbar-brand" href="./index.html">Phonethip Liu Hobson</a>
+                        <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="./aboutMe.html">ABOUT ME</a></li>
+                            <li class="nav-item"><a class="nav-link"  href="./printWork.html">PRINT WORK</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link"  href="./Delish.html">UX/UI DESIGN + DEVELOPMENT</a></li> -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Frontend DEVELOPMENT
+                                </a>
+    
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./Quizit.html">Quiz-its</a>
+                                <a class="dropdown-item" href="./Delish.html">Delish</a>
+                                <!-- <a class="dropdown-item" href="#">Crime Checker</a> -->
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="nav-title">
+                            <p> Phonethip Liu Hobson is a frontend developer, UX/UI designer, and graphic designer</p>
+                        </div> -->
+                </div>
+            </nav>
+            </div>
+        </header> 
      <!-- main section --> 
         <main class="main-container-wrapper"> 
 
@@ -55,13 +91,12 @@
                 <article class="projects-case-study">
                     <div class="d-md-flex m-t-5">
                         <!-- <h1 class="row mr-3">Delish</h1> -->
-                        <img src="../images/Delish-1.png" style="width: 75%; height: 75%; object-fit: contain;" class ="case-study-delish">
+                        <img src="../images/Delish-1.png" style="width: 100%; height: 100%; object-fit: contain;" class ="case-study-delish mb-5">
                     </div>
                         <h4 class="subhead"> Overview</h4>
                         <p> Delish is a digital recipe management app to help users create new recipes, edit, update, delete, and search recipes easily. The goal is to help users curate their recipe collection by tested and rating it so that they can put on their Delish list staple.</p>
 
-                        <p> The project was complete within a two-week deadline. The requirements include developing a user persona, conducting user interviews and research for insights to develop the product, user testing, creating high fidelity wireframes, prototypes, using Firebase for database storage and user authentication, build using React, GitHub project tracking, and creating a design system. Other tools and techologies used to build the application: HTML, CSS, JavaScript, ES6, Systematic UI, Styleguidist, Bootstrap, GitHub, Sketch, Photoshop, and Illustrator.</p>
-                    </div>        
+                        <p> The project was complete within a two-week deadline. The requirements include developing a user persona, conducting user interviews and research for insights to develop the product, user testing, creating high fidelity wireframes, prototypes, using Firebase for database storage and user authentication, build using React, GitHub project tracking, and creating a design system. Other tools and techologies used to build the application: HTML, CSS, JavaScript, ES6, Systematic UI, Styleguidist, Bootstrap, GitHub, Sketch, Photoshop, and Illustrator.</p>       
                 </article>
                
                     
@@ -78,7 +113,7 @@
                     <h4 class="subhead"> User Research Interviews </h4>
                     <p>Interviewed 24 users of various ages ranging from 20 something millenials to 50-year-old professionals that cook. </p>
 
-                    <img src="../images/Quizit-personas.png" style="width: 80%; height: 80%; object-fit: contain;" class ="case-study-delish">
+                    <img src="../images/Delish-personal.png" style="width: 80%; height: 80%; object-fit: contain;" class ="case-study-delish">
                 </article>
                 
                 <hr>
@@ -103,9 +138,9 @@
                     <hr>
                     <article class="projects-case-study">
                             <h4 class="subhead">Wireframes</h4>
-                        <img src="../images/Quizits-wireframes.png" style="width: 80%; height: 80%; object-fit: contain;" class ="case-study-delish">
+                        <img src="../images/Delish wireframes.png" style="width: 100%; height: 100%; object-fit: contain;" class ="case-study-delish">
                         
-                        <p>The design changed again when I was prototyping the site to include more interactivity. </p>
+                        <!-- <p>The design changed again when I was prototyping the site to include more interactivity. </p> -->
                         
                 </article>
 
@@ -114,9 +149,9 @@
                             <h4 class="subhead">Project Reflections</h4>
                         
                         <ul>
-                           <li>Creating quizzes from scratch take a lot of time. I should have used more of the trivia API content to create more quizzes.</li>
+                           <li>After review, there should be more user testing to see if there is a better way to enter recipes. </li>
     
-                           <li>Need to do more user testing to refactor content and UI of the project.</li>
+                           <li>Need to refactor content and UI of the project.</li>
                         </ul>
                 </article>
 
@@ -129,7 +164,7 @@
             <footer>
                 <div class="container footer-wrapper">
                     <div class="row footer-row">
-                    <div class="col footer-col-1">
+                    <div class="col footer-col-1 mr-5 ml-5">
                     Web design and content &copy; 2018 Phonethip Liu Hobson.
                     </div>
                     </div>
