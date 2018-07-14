@@ -68,7 +68,7 @@ h2 {
 h4 {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 3px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     font-weight: 600;
     color: #f90081;
     font-size: 1rem;
@@ -77,8 +77,8 @@ h4 {
 .subhead {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    line-height: .8rem;
-    letter-spacing:.1rem;
+    line-height: 1.2rem;
+    /* letter-spacing:.05rem; */
     text-transform: uppercase;
     font-weight: 400;
     margin: 0 0 2rem 0;
@@ -339,26 +339,6 @@ p.contact a{
     margin-top: 10rem;
 }
 
-/* Footer area */
-.footer-wrapper{
-    margin: 3rem 0rem;
-}
-.footer-col-1{
-    font-size: .7rem;
-    /* text-transform: uppercase; */
-    letter-spacing: .05rem;
-    /* text-align: center;  */
-    margin-top: 3rem;
-    color: #000;
-}
-
-.footer-list li {
-    list-style: none;
-    display: inline-flex;
-    padding-right: 5px;
-    align-items: baseline;
-}
-
 /* Print Portfolio grid */
 .print-item {
     width: 150px;
@@ -401,13 +381,32 @@ p.contact a{
   }
 
 
-
 /* PORTFOLIO AREA  */
-
-
 a.project-link {
     color: #f90081;
 }
+
+
+/* Footer area */
+.footer-wrapper{
+    margin: 3rem 4rem;
+}
+.footer-col-1{
+    font-size: .7rem;
+    /* text-transform: uppercase; */
+    letter-spacing: .05rem;
+    /* text-align: center;  */
+    margin-top: 3rem;
+    color: #000;
+}
+
+.footer-list li {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 5px;
+    align-items: baseline;
+}
+
 
 
 /* Turn off parallax scrolling for tablets and phones */
