@@ -335,9 +335,11 @@ p.contact a{
     color: #f90081;
 }
 
-.main-section {
+/* .main-section {
     margin-top: 10rem;
-}
+} */
+
+
 
 /* Print Portfolio grid */
 .print-item {
@@ -360,7 +362,7 @@ p.contact a{
 }
 
 .print-container {
-    margin: 6rem;
+    margin: 6rem 8rem;
 }
 
 .wrap { 
