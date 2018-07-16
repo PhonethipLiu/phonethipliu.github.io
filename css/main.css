@@ -71,7 +71,7 @@ h4 {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     line-height: 1.2rem;
-    /* letter-spacing:.05rem; */
+    letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 400;
     margin: 0 0 2rem 0;
@@ -340,7 +340,7 @@ p.experience{
     background-color: white;
 }
 
-/* Projects grid area */
+/* Print projects grid area */
 .container {
     display: flex;
     margin-left: auto;
@@ -371,6 +371,14 @@ p.experience{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+ul.print-awards li{
+    font-size: .8rem;
+    line-height: 1rem;
+    padding-bottom: .6rem;
+    letter-spacing: .02rem;
+}
+
 
 
 
