@@ -308,7 +308,7 @@ article.workPlace  {
 
 div.dev-experience{
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -354,13 +354,14 @@ p.experience{
     margin-right: auto;
     margin-top: 2rem;
 }
+
 .project {
     /* display:flex; */
     width: 200px; 
     height: 200px; 
     /* object-fit: cover; */
     align-items: flex-start;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-top: 1rem;
     border: 1px solid rgb(255, 255, 255);
    
@@ -368,7 +369,7 @@ p.experience{
 
 .row {
     padding-top: 1rem;
-    padding-bottom: 6rem;
+    padding-bottom: 1rem;
 }
 
 
